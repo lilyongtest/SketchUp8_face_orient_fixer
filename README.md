@@ -6,6 +6,15 @@ SketchUpでモデリングしたオブジェクトの**面の表裏（反転）�
 
 SketchUpの内部API（`orient_faces`）が未実装である**Google SketchUp 8（内部Ruby 1.8環境）でも確実に動作するよう、独自の巡回反転アルゴリズム（BFS）で設計されています。**
 
+複雑に裏表が入り組んだテクスチャ
+
+<img width="744" height="564" alt="image" src="https://github.com/user-attachments/assets/7deb060f-fa7b-4320-b128-7b3896fa5c63" />
+
+
+プラグイン実行後、すべての面が表（白）にすることができる
+
+<img width="908" height="547" alt="image" src="https://github.com/user-attachments/assets/9dff18c8-d35f-4703-849e-f75e909f30e0" />
+
 ---
 
 ## 🚀 特徴
